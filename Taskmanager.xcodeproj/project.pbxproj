@@ -33,7 +33,7 @@
 		6C5231A62E6B162F000D81AD /* Exceptions for "Taskmanager" folder in "Taskmanager" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"Views/Search&FilterView.swift",
+				Views/SearchAndFilterView.swift,
 			);
 			target = 6C5231542E6B119B000D81AD /* Taskmanager */;
 		};
@@ -48,14 +48,9 @@
 			path = Taskmanager;
 			sourceTree = "<group>";
 		};
-		6C5231652E6B119C000D81AD /* TaskmanagerTests */ = {
+		6C5231652E6B119C000D81AD /* Tests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TaskmanagerTests;
-			sourceTree = "<group>";
-		};
-		6C52316F2E6B119C000D81AD /* TaskmanagerUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TaskmanagerUITests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -89,8 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				6C5231572E6B119B000D81AD /* Taskmanager */,
-				6C5231652E6B119C000D81AD /* TaskmanagerTests */,
-				6C52316F2E6B119C000D81AD /* TaskmanagerUITests */,
+				6C5231652E6B119C000D81AD /* Tests */,
 				6C5231562E6B119B000D81AD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -144,7 +138,7 @@
 				6C5231642E6B119C000D81AD /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				6C5231652E6B119C000D81AD /* TaskmanagerTests */,
+				6C5231652E6B119C000D81AD /* Tests */,
 			);
 			name = TaskmanagerTests;
 			packageProductDependencies = (
@@ -165,9 +159,6 @@
 			);
 			dependencies = (
 				6C52316E2E6B119C000D81AD /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				6C52316F2E6B119C000D81AD /* TaskmanagerUITests */,
 			);
 			name = TaskmanagerUITests;
 			packageProductDependencies = (
