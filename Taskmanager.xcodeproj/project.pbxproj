@@ -29,9 +29,22 @@
 		6C52316C2E6B119C000D81AD /* TaskmanagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskmanagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6C5231A62E6B162F000D81AD /* Exceptions for "Taskmanager" folder in "Taskmanager" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Views/Search&FilterView.swift",
+			);
+			target = 6C5231542E6B119B000D81AD /* Taskmanager */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6C5231572E6B119B000D81AD /* Taskmanager */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6C5231A62E6B162F000D81AD /* Exceptions for "Taskmanager" folder in "Taskmanager" target */,
+			);
 			path = Taskmanager;
 			sourceTree = "<group>";
 		};
