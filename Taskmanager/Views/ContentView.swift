@@ -15,8 +15,8 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                SearchAndFilterView(viewModel: viewModel)
                 TaskListView(viewModel: viewModel)
+//                SearchAndFilterView(viewModel: viewModel)
                 Spacer()
             }
             .navigationTitle("My Tasks")
